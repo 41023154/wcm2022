@@ -214,7 +214,31 @@ run()
 <div style="width: 100%; height: 100%;"></div>
 <!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
 <div id="brython_div"> </div>
-<p><br/><br/></p><h1>W17</h1>
+<p><br/><br/></p>
+<p><!--配合 Wink 檔案將 js 檔案設定如下--></p>
+<p>
+<script>
+var winkVideoData = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+</script>
+</p>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<p><!--配合 Wink 檔案將 js 檔案設定如下--></p>
+<script>
+var winkVideoData = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="/downloads/wink/auto.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div><h1>W17</h1>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/R_eurnIlFPY" title="YouTube video player" width="560"></iframe><br/><br/></p>
 <p>心得:這學期有架設伺服器、建立虛擬主機、用wink製作影片、還有nginx...等等，還有俄羅斯方塊讓我們去了解每一條指令的意思，並且我們可以依照FPS來調整俄羅斯方塊的速度來達成影片中的6分</p><h1>Online</h1>
 <p>為配合學校因應疫情所作的課程教學措施:</p>
